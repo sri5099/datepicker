@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { View, Button,Platform, SafeAreaView } from "react-native";
 import DateTimePicker from "@react-native-community/datetimepicker";
 import Modal from "react-native-modal";
-export  default class PickerDemo extends Component{
+export  default class DateTime extends Component{
     
     state={
         date:new Date('2020-06-25T15:00:00'),

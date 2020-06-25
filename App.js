@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Platform,StyleSheet,Text,View } from "react-native";
-import PickerDemo from "./components/demopicker";
+
+import DateTime from "./components/dateTime";
 export default class App extends Component{
   render(){
-    return<PickerDemo></PickerDemo>
+    return<DateTime></DateTime>
   }
 }
